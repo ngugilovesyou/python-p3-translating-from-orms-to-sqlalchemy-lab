@@ -2,7 +2,10 @@
 
 from sqlalchemy import (Column, String, Integer)
 from sqlalchemy.ext.declarative import declarative_base
+#from sqlalchemy import create_engine
 
+
+#engine = create_engine("sqlite:///dogs.db")
 Base = declarative_base()
 
 class Dog(Base):
